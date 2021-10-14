@@ -7,10 +7,11 @@ using namespace std;
 
 class Converter {
 public:
-    uint toUint(const string &) const;
+    unsigned long int toUint(const string &) const;
 
-    string toHex(const uint &) const;
+    string ceilToHex(const unsigned long int &) const;
+
+    string floorToHex(const unsigned long int &) const;
 };
-
 
 #endif //MTRPARSER_CONVERTER_H

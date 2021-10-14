@@ -1,22 +1,22 @@
 #include "Range.h"
 
-Range::Range(uint s) {
+Range::Range(unsigned long int s) {
     start = s;
 }
 
-uint Range::getStart() const {
+unsigned long int Range::getStart() const {
     return start;
 }
 
-void Range::setStart(uint s) {
+void Range::setStart(unsigned long int s) {
     start = s;
 }
 
-uint Range::getEnd() const {
+unsigned long int Range::getEnd() const {
     return end;
 }
 
-void Range::setEnd(uint e) {
+void Range::setEnd(unsigned long int e) {
     end = e;
 }
 
@@ -24,7 +24,7 @@ bool Range::empty() const {
     return start == 0;
 }
 
-uint Range::diff() const {
+unsigned long int Range::diff() const {
     return end - start;
 }
 

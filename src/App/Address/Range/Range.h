@@ -9,17 +9,17 @@ using namespace std;
 class Range {
     uint start, end = 0;
 public:
-    explicit Range(uint);
+    explicit Range(unsigned long int) ;
 
-    uint getStart() const;
+    unsigned long int getStart() const;
 
-    void setStart(uint);
+    void setStart(unsigned long int);
 
-    uint getEnd() const;
+    unsigned long int getEnd() const;
 
-    void setEnd(uint);
+    void setEnd(unsigned long int);
 
-    uint diff() const;
+    unsigned long int diff() const;
 
     bool empty() const;
 
