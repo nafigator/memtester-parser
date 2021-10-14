@@ -8,8 +8,8 @@ to use address ranges for excluding in core memory usage.
 ```
 mkdir build && cd build
 cmake  -B ./ -S ../
-cmake &&\
-    --build ./ &&\
+cmake \
+    --build ./ \
     --target memtester-parser
 ```
 
