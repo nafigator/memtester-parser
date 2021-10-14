@@ -33,7 +33,7 @@ See [semver.org][semver link] for details.
 [semver badge]: https://img.shields.io/badge/semantic%20versioning-2.0.0-green.svg
 [conventional commits link]: https://conventionalcommits.org
 [conventional commits badge]: https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg
-[release badge]: https://img.shields.io/badge/release-0.1.0-brightgreen.svg
+[release badge]: https://img.shields.io/badge/release-0.1.1-brightgreen.svg
 [release link]: https://github.com/nafigator/memtester-parser
 [license img]: https://img.shields.io/badge/license-MIT-brightgreen.svg
 [license link]: https://tldrlegal.com/license/mit-license
